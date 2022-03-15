@@ -1,6 +1,7 @@
 header {
   background-color: black;
   color: white;
+  font-weight: bold;
 }
 p {
   margin-left: 50px;
