@@ -3,7 +3,8 @@ h1 {
   color: white;
   font-weight: bold;
 }
-body {
+p {
   margin-left: 50px;
   color: red;
+  background-color: blue;
 }
