@@ -3,7 +3,7 @@ header {
   color: white;
   font-weight: bold;
 }
-p {
+body {
   margin-left: 50px;
   color: red;
 }
