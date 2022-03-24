@@ -4,5 +4,6 @@ h1 {
 }
 
 nav {
+  color: maroon;
   border: 10px, solid, gray;
 }
