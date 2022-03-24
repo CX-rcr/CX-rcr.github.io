@@ -1,9 +1,14 @@
+p {
+  color: black;
+  font-size: 10px;
+}
+
 h1 {
   background-color: black;
   color: white;
 }
 
 nav {
-  color: maroon;
+  color: red;
   border: 10px, solid, gray;
 }
