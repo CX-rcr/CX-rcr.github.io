@@ -1,6 +1,11 @@
-p {
+body {
   color: black;
+  background-color: rgb(252, 195, 173);
   font-size: 20px;
+}
+
+p {
+  padding-left: 30px;
 }
 
 h1 {
@@ -9,13 +14,15 @@ h1 {
 }
 
 nav {
-  color: red;
-  border: 10px, solid, gray;
+  text-align: center;
+  word-spacing: 20px;
+  background-color: rgb(255, 215, 240);
 }
 
 form {
-  font-size: 10px;
-  border: 3px, solid, black;
+  background-color: rgb(215, 222, 255);
+  padding: 10px;
+  text-align: center;
 }
 
 header {
