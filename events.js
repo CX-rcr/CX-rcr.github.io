@@ -25,7 +25,7 @@ window.onload = function() {
 }
 
 function submitted(event) {
-    window.alert('Searching!' + q.value);
+    window.alert('Searching for ' + q.value);
     // event.preventDefault();
     const url = google + site + '+' + q.value;
     const win = window.open(url, '_blank');
