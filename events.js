@@ -23,6 +23,7 @@ const f = document.getElementById('form');
       const site = 'CX-rcr.github.io';
 
       function submitted(event) {
+        window.alert('Searching!');
         event.preventDefault();
         const url = google + site + '+' + q.value;
         const win = window.open(url, '_blank');
