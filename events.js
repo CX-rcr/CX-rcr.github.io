@@ -16,18 +16,18 @@ window.onload = function() {
                 window.alert('FAILED...', error);
             });
     });
+    const f = document.getElementById('form');
+    const q = document.getElementById('query');
+    const google = 'https://www.google.com/search?q=site%3A+';
+    const site = 'CX-rcr.github.io';
+
+    f.addEventListener('submit', submitted);
 }
-const f = document.getElementById('form');
-      const q = document.getElementById('query');
-      const google = 'https://www.google.com/search?q=site%3A+';
-      const site = 'CX-rcr.github.io';
 
-      function submitted(event) {
-        window.alert('Searching!');
-        event.preventDefault();
-        const url = google + site + '+' + q.value;
-        const win = window.open(url, '_blank');
-        win.focus();
-      }
-
-      f.addEventListener('submit', submitted);
+function submitted(event) {
+    window.alert('Searching!');
+    event.preventDefault();
+    const url = google + site + '+' + q.value;
+    const win = window.open(url, '_blank');
+    win.focus();
+}
