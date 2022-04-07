@@ -1,11 +1,11 @@
 body {
   color: black;
-  background-color: rgb(252, 195, 173);
   font-size: 20px;
 }
 
 p {
   padding-left: 30px;
+  
 }
 
 h1 {
@@ -27,7 +27,7 @@ nav {
 }
 
 .product nav {
-  background-color: rgb(186, 255, 187);
+  background-color: rgb(252, 195, 173);
 }
 
 .report nav {
@@ -37,22 +37,23 @@ nav {
 form {
   padding: 10px;
   text-align: center;
+  background-color: rgb(194, 253, 202);
 }
 
-.index form {
-  background-color: rgb(215, 222, 255);
-}
-
-.about form {
-  background-color: rgb(255, 215, 240);
-}
-
-.product form {
+.index {
   background-color: rgb(248, 255, 181);
 }
 
-.report form {
-  background-color: rgb(186, 255, 187);
+.about {
+  background-color: rgb(255, 215, 240);
+}
+
+.product {
+  background-color: rgb(215, 222, 255);
+}
+
+.report {
+  background-color: rgb(252, 195, 173);
 }
 
 header {
