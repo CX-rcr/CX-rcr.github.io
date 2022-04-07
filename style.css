@@ -25,8 +25,13 @@ nav {
 .about nav {
   background-color: rgb(248, 255, 181);
 }
+
 .product nav {
   background-color: rgb(186, 255, 187);
+}
+
+.report nav {
+  background-color: rgb(222, 186, 255);
 }
 
 .index form {
