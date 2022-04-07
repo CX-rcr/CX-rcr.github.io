@@ -31,16 +31,31 @@ nav {
 }
 
 .report nav {
-  background-color: rgb(222, 186, 255);
+  background-color: rgb(215, 222, 255);
 }
 
-.index form {
-  background-color: rgb(215, 222, 255);
+form {
   padding: 10px;
   text-align: center;
 }
 
-.index header {
+.index form {
+  background-color: rgb(215, 222, 255);
+}
+
+.about form {
+  background-color: rgb(255, 215, 240);
+}
+
+.product form {
+  background-color: rgb(248, 255, 181);
+}
+
+.report form {
+  background-color: rgb(186, 255, 187);
+}
+
+header {
   font-size: 30px;
   background-color: pink;
 }
