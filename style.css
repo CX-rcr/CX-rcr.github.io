@@ -4,7 +4,7 @@ body {
   font-size: 20px;
 }
 
-.index p {
+p {
   padding-left: 30px;
 }
 
@@ -13,10 +13,17 @@ body {
   color: white;
 }
 
-.index nav {
+nav {
   text-align: center;
   word-spacing: 20px;
+}
+
+.index nav {
   background-color: rgb(255, 215, 240);
+}
+
+.about nav {
+  background-color: rgb(248, 255, 181);
 }
 
 .index form {
