@@ -126,3 +126,8 @@ display: list-item;
 .products{
 display: list-item;	
 }
+
+#p_list{
+	font-size: 1.5em;
+	margin-left: 90px;
+}
