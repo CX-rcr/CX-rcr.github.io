@@ -116,3 +116,13 @@ input[type=text]:focus {
 .animals{
 display: list-item;	
 }
+
+#p_searchbar{
+	margin-left: 15%;
+	padding:15px;
+	border-radius: 10px;
+}
+
+.products{
+display: list-item;	
+}
