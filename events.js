@@ -50,7 +50,7 @@ function search_races() {
 function search_products() {
 	let input = document.getElementById('p_searchbar').value
 	input=input.toLowerCase();
-	let x = document.getElementsByClassName('ps');
+	let x = document.getElementsByClassName('product');
 	
 	for (i = 0; i < x.length; i++) {
 		if (!x[i].innerHTML.toLowerCase().includes(input)) {
