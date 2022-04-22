@@ -124,7 +124,7 @@ input[type=text]:focus {
 }
 
 .product{
-	display: p_list-item;	
+	display: list-item;	
 }
 
 #p_list{
