@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="style.css" rel="stylesheet"/>
+        <script src="test.js"></script>
     </head>
     <div class="products">
     <header>
@@ -18,6 +19,10 @@
   </nav>
   <body class="products">
     <p><strong>Product Review</strong></p>
+      <input id="p_searchbar" onkeyup="search_products()" type="text"
+		name="search" placeholder="Search animals..">
+      <ul id='p_list'>
+          <li class='products'>
     <details>
     <summary>
       Ritchey Saddles:
@@ -30,6 +35,8 @@
           plus they are super comfortable!
     </p>
     </details>
+          </li>
+      </ul>
   </body>
     </div>
 </html>
