@@ -57,7 +57,7 @@ function search_products() {
 			x[i].style.display="none";
 		}
 		else {
-			x[i].style.display="p_list-item";				
+			x[i].style.display="list-item";				
 		}
 	}
 }
