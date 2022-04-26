@@ -24,13 +24,7 @@ window.onload = function() {
     f.addEventListener('submit', submitted);
 }
 
-function submitted(event) {
-    window.alert('Searching for ' + q.value);
-    event.preventDefault();
-    const url = google + site + '+' + q.value;
-    const win = window.open(url, '_blank');
-    win.focus();
-}
+
 
 function search_races() {
 	let input = document.getElementById('searchbar').value
@@ -52,12 +46,12 @@ function search_products() {
 	p_input=p_input.toLowerCase();
 	let p_x = document.getElementsByClassName('product');
 	
-	for (i = 0; i < p_x.length; i++) {
-		if (!p_x[i].innerHTML.toLowerCase().includes(p_input)) {
-			p_x[i].style.display="none";
+	for (j = 0; j < p_x.length; j++) {
+		if (!p_x[j].innerHTML.toLowerCase().includes(p_input)) {
+			p_x[j].style.display="none";
 		}
 		else {
-			p_x[i].style.display="list-item";				
+			p_x[j].style.display="list-item";				
 		}
 	}
 }
