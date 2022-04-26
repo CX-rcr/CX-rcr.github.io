@@ -90,11 +90,7 @@ summary::-webkit-details-marker {
   display: none;
 }
 
-#searchbar{
-	margin-left: 15%;
-	padding:15px;
-	border-radius: 10px;
-}
+
 
 input[type=text] {
 	width: 30%;
@@ -108,14 +104,7 @@ input[type=text]:focus {
 	width: 70%;
 }
 
-#list{
-	font-size: 1em;
-	margin-left: 30px;
-}
 
-.animals{
-	display: list-item;	
-}
 
 #p_searchbar{
 	margin-left: 15%;
