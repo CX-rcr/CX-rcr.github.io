@@ -48,16 +48,16 @@ function search_races() {
 }
 
 function search_products() {
-	let input = document.getElementById('p_searchbar').value
-	input=input.toLowerCase();
-	let x = document.getElementsByClassName('product');
+	let p_input = document.getElementById('p_searchbar').value
+	p_input=p_input.toLowerCase();
+	let p_x = document.getElementsByClassName('product');
 	
-	for (i = 0; i < x.length; i++) {
-		if (!x[i].innerHTML.toLowerCase().includes(input)) {
-			x[i].style.display="none";
+	for (i = 0; i < p_x.length; i++) {
+		if (!p_x[i].innerHTML.toLowerCase().includes(p_input)) {
+			p_x[i].style.display="none";
 		}
 		else {
-			x[i].style.display="list-item";				
+			p_x[i].style.display="list-item";				
 		}
 	}
 }
