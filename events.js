@@ -52,3 +52,6 @@ function search_races() {
 		}
 	}
 }
+function change_image() {
+	document.getElementById("menu").src="x.png";
+}
