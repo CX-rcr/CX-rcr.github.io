@@ -53,5 +53,16 @@ function search_races() {
 	}
 }
 function change_image() {
-	document.getElementById("menu").src="x.png";
+	let img_val = document.getElementById("menu").src
+	if (img_val == "x.png") {
+		document.getElementById("menu").src="hamburger.png";
+		window.alert("ham");
+	}
+	else if (img_val == "hamburger.png) {
+		document.getElementById("menu").src="x.png";
+		window.alert("x");
+	}
+	else {
+		window.alert("fail");
+	}
 }
