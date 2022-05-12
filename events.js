@@ -53,15 +53,15 @@ function search_races() {
 	}
 }
 function change_image() {
-	window.alert("attempting");
+	
 	let img_val = document.getElementById("menu").src;
 	if (img_val == "https://cx-rcr.github.io/x.png") {
-		document.getElementById("menu").src="hamburger.png";
-		window.alert("ham");
+		document.getElementById("menu").src="hamburger.jpg";
+		
 	}
-	else if (img_val == "https://cx-rcr.github.io/hamburger.png") {
+	else if (img_val == "https://cx-rcr.github.io/hamburger.jpg") {
 		document.getElementById("menu").src="x.png";
-		window.alert("x");
+		
 	}
 	else {
 		window.alert("fail");
