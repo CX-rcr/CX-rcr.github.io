@@ -56,11 +56,11 @@ function change_image() {
 	window.alert("attempting");
 	window.alert("var +" + document.getElementById("menu").src);
 	let img_val = document.getElementById("menu").src;
-	if (img_val == "x.png") {
+	if (img_val == "https://cx-rcr.github.io/x.png") {
 		document.getElementById("menu").src="hamburger.png";
 		window.alert("ham");
 	}
-	else if (img_val == "hamburger.png") {
+	else if (img_val == "https://cx-rcr.github.io/hamburger.png") {
 		document.getElementById("menu").src="x.png";
 		window.alert("x");
 	}
