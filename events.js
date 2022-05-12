@@ -54,6 +54,7 @@ function search_races() {
 }
 function change_image() {
 	window.alert("attempting");
+	window.alert(document.getElementById("menu").src);
 	let img_val = document.getElementById("menu").src;
 	if (img_val == "x.png") {
 		document.getElementById("menu").src="hamburger.png";
