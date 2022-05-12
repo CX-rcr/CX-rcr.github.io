@@ -59,7 +59,7 @@ function change_image() {
 		document.getElementById("menu").src="hamburger.png";
 		window.alert("ham");
 	}
-	else if (img_val == "hamburger.png) {
+	else if (img_val == "hamburger.png") {
 		document.getElementById("menu").src="x.png";
 		window.alert("x");
 	}
