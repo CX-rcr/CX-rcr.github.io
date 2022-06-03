@@ -1,3 +1,23 @@
+:root {
+	--height: 129.5px;
+}
+
+#bike
+	{
+		position:relative;
+		top: 0px;
+		background: url("cycling\ -\ Copy.jpg"); 
+		width :142.75px;
+		height: 129px;		
+		animation: walking_animation 1s steps(8) infinite;	
+	}
+
+@keyframes walking_animation
+	{
+		0%{background-position: 1142px var(--height);}
+		100%{background-position: 0px var(--height);}
+	}
+
 body {
   color: black;
   font-size: 20px;
